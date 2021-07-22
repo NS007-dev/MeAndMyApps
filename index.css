@@ -1,0 +1,97 @@
+
+/* dark mode */
+/* body {
+    background-image: url("https://image.freepik.com/free-vector/realistic-neon-lights-background_52683-66028.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+} */
+
+body {
+    background-image: url('./city.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: cadetblue;
+    background-position: center center;
+    color: white;
+}
+
+.bg-text {
+    background-color: rgb(0, 0, 0);
+    background-color: rgba(0,0,0, 0.4);
+    color: white;
+    font-weight: bold;
+    font-size: 90px;
+    border: 10px solid #f1f1f1;
+    border-radius: 50px;
+    position: fixed;
+    top: 30%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    width: 700px;
+    padding: 20px;
+    text-align: center;
+}
+
+ .light-mode {
+    background-image: url("./cityday.jpg");
+    color: black;
+    }
+
+.bio {
+    position: absolute;
+    bottom:0;
+    background-color: rgb(207, 135, 135);
+    background-color: rgba(114, 95, 95, 0.4);
+    font-size: 15px;
+    border: 3px solid #f1f1f1;
+    width: 400px;
+    padding: 20px;
+    text-align: center;
+    border-radius: 50px;
+}
+
+.apps {
+    position: absolute;
+    bottom:0;
+    right: 0;
+    background-color: rgb(207, 135, 135);
+    background-color: rgba(114, 95, 95, 0.4);
+    font-size: 13px;
+    border: 3px solid #f1f1f1;
+    width: 400px;
+    height: 220px;
+    padding: 20px;
+    text-align: center;
+    border-radius: 50px;
+}
+
+.apps, a {
+    text-decoration: none;
+    color: chartreuse;
+    text-align: center;
+    cursor: pointer;
+}
+
+.github {
+    bottom: 280px;
+    position: absolute;
+    background-color: rgb(207, 135, 135);
+    background-color: rgba(114, 95, 95, 0.4);
+    font-size: 13px;
+    border: 3px solid #f1f1f1;
+    width: 200px;
+    height: 220px;
+    padding: 20px;
+    text-align: center;
+    border-radius: 50px;
+}
+
+.sun, img{
+    height:70px;
+    width: 70px;
+    cursor: pointer;
+}

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="https://image.flaticon.com/icons/png/512/3437/3437364.png">
+    <link rel="stylesheet" type="text/css" href="./index.css">
+    <title>Me And My Apps</title>
+    <style>
+        .light-mode {
+            background-image: url("./cityday.jpg");
+            color: black;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="sun">
+        <img src="https://image.flaticon.com/icons/png/512/4907/4907176.png" onclick="lightDark()">
+    </div>
+    <div class="bg-text">Me And My Apps!</div>
+    <script>
+        function lightDark() {
+            var element = document.body;
+            element.classList.toggle("light-mode");
+        }
+    </script>
+
+    <div class="bio">
+        <h2>
+            A Quick Bio About Me:
+        </h2>
+        <h3>
+            <ul>I love to make websites, and then animate them using JavaScript!</ul>
+            <ul>I am currently learning React.js!</ul>
+            <ul>I love to use open source and contribute to others repositaries!</ul>
+        </h3>
+    </div>
+
+    <div class="apps">
+        <h2>
+            All My Creations:
+        </h2>
+        <h3>
+            <ul><a href="https://codingspecies.github.io/InputOutputBot/">Input Output Bot.</a></ul>
+            <ul><a href="https://codingspecies.github.io/ITSupportSavesLives/">IT Support Saves Lives.</a></ul>
+            <ul><a href="https://codingspecies.github.io/TickTockClock/">Tick Tock Clock.</a></ul>
+            <ul><a href="https://codingspecies.github.io/StartStopClock/">Start Stop Clock.</a></ul>
+            <ul><a href="https://codingspecies.github.io/NarrowNotes/">Narrow Notes.</a></ul>
+            <ul><a href="https://codingspecies.github.io/Best-App-Tutorials/">Best App Best-App-Tutorials</a></ul>
+        </h3>
+    </div>
+
+    <div class="github">
+        <h2>
+            Github Organisations:
+        </h2>
+        <h3>
+            <a href="https://github.com/zero-to-mastery"><img
+                    src="https://avatars.githubusercontent.com/u/35373879?s=60&v=4"></a>
+            <a href="https://github.com/EddieHubCommunity"><img
+                    src="https://avatars.githubusercontent.com/u/66388388?s=60&v=4"></a>
+            <a href="https://github.com/MakeContributions"><img
+                    src="https://avatars.githubusercontent.com/u/67384272?s=60&v=4"></a>
+            <a href="https://github.com/CodingContributorsLair"><img
+                    src="https://avatars.githubusercontent.com/u/87652881?s=60&v=4"></a>
+        </h3>
+    </div>
+</body>
+
+</html>
