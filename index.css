@@ -1,12 +1,4 @@
-
-/* dark mode */
-/* body {
-    background-image: url("https://image.freepik.com/free-vector/realistic-neon-lights-background_52683-66028.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
-} */
+@import url('https://fonts.googleapis.com/css2?family=Nova+Round&display=swap');
 
 body {
     background-image: url('./city.jpg');
@@ -16,6 +8,7 @@ body {
     background-color: cadetblue;
     background-position: center center;
     color: white;
+    font-family: 'Nova Round', cursive;
 }
 
 .bg-text {
@@ -60,7 +53,7 @@ body {
     right: 0;
     background-color: rgb(207, 135, 135);
     background-color: rgba(114, 95, 95, 0.4);
-    font-size: 13px;
+    font-size: 12.4px;
     border: 3px solid #f1f1f1;
     width: 400px;
     height: 220px;
@@ -71,7 +64,7 @@ body {
 
 .apps, a {
     text-decoration: none;
-    color: chartreuse;
+    color: white;
     text-align: center;
     cursor: pointer;
 }
