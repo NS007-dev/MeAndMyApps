@@ -96,11 +96,12 @@ body {
     align-items: center;
     justify-content: center;
     min-height: 100vh;
+    text-shadow: teal 4, 0, 5;
 }
 
 h1 {
     color: rgb(187, 164, 164);
-    font-size: 50px;
+    font-size: 100px;
     font-weight: bold;
     font-family: monospace;
     letter-spacing: 7px;
@@ -150,7 +151,7 @@ h1:hover span {
 }
 
 .icon-bar img:hover {
-    background-color: #000;
+    background-color: rgb(54, 196, 148);
 }
 
 .ghub {
