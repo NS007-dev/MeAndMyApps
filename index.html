@@ -13,14 +13,43 @@
             background-image: url("./cityday.jpg");
             color: black;
         }
+
+        .light-mode,
+        h1:hover span {
+            color: #fff;
+            text-shadow: 0 0 10px #fff,
+                0 0 20px blue,
+                0 0 40px blue;
+        }
     </style>
 </head>
 
 <body>
-    <div class="sun">
+    <div class="icon-bar">
+        <img src="https://image.flaticon.com/icons/png/512/4907/4907176.png" onclick="lightDark()" class="mode">
+        <a href="https://github.com/CodingSpecies" class="ghub"><img
+                src="https://image.flaticon.com/icons/png/128/779/779088.png"></a>
+        <a href="https://github.com/zero-to-mastery"><img
+                src="https://avatars.githubusercontent.com/u/35373879?s=60&v=4"></a>
+        <a href="https://github.com/EddieHubCommunity"><img
+                src="https://avatars.githubusercontent.com/u/66388388?s=60&v=4"></a>
+        <a href="https://github.com/MakeContributions"><img
+                src="https://avatars.githubusercontent.com/u/67384272?s=60&v=4"></a>
+        <a href="https://github.com/CodingContributorsLair"><img
+                src="https://avatars.githubusercontent.com/u/87652881?s=60&v=4"></a>
+    </div>
+    <!-- <div class="sun">
         <img src="https://image.flaticon.com/icons/png/512/4907/4907176.png" onclick="lightDark()">
     </div>
-    <div class="bg-text">Me And My Apps!</div>
+    <div class="ghub">
+        <a href="https://github.com/CodingSpecies"><img
+                src="https://image.flaticon.com/icons/png/128/779/779088.png"></a>
+    </div> -->
+    <!-- <div class="bg-text">Me And My Apps!</div> -->
+    <h1 style="text-align: center;"><span>Me </span>and<span> My Apps</span></h1>
+    <h3 style="text-align:center;">Hey, hover over the title!</h3>
+    <h3 style="text-align:center;">Me And My Apps!</h3>
+
     <script>
         function lightDark() {
             var element = document.body;
@@ -53,7 +82,7 @@
         </h3>
     </div>
 
-    <div class="github">
+    <!-- <div class="github">
         <h2>
             Github Organisations:
         </h2>
@@ -67,7 +96,7 @@
             <a href="https://github.com/CodingContributorsLair"><img
                     src="https://avatars.githubusercontent.com/u/87652881?s=60&v=4"></a>
         </h3>
-    </div>
+    </div> -->
 </body>
 
 </html>
