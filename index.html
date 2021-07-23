@@ -27,25 +27,20 @@
 <body>
     <div class="icon-bar">
         <img src="https://image.flaticon.com/icons/png/512/4907/4907176.png" onclick="lightDark()" class="mode">
-        <a href="https://github.com/CodingSpecies" class="ghub"><img
-                src="https://image.flaticon.com/icons/png/128/779/779088.png"></a>
-        <a href="https://github.com/zero-to-mastery"><img
-                src="https://avatars.githubusercontent.com/u/35373879?s=60&v=4"></a>
-        <a href="https://github.com/EddieHubCommunity"><img
-                src="https://avatars.githubusercontent.com/u/66388388?s=60&v=4"></a>
-        <a href="https://github.com/MakeContributions"><img
-                src="https://avatars.githubusercontent.com/u/67384272?s=60&v=4"></a>
-        <a href="https://github.com/CodingContributorsLair"><img
-                src="https://avatars.githubusercontent.com/u/87652881?s=60&v=4"></a>
+        <a href="https://codingspecies.github.io/InputOutputBot/"><img
+                src="https://img.icons8.com/cotton/2x/notebook-computer.png"></a>
+        <a href="https://codingspecies.github.io/ITSupportSavesLives/"><img
+                src="https://www.pngrepo.com/png/28150/512/computer.png"></a>
+        <a href="https://codingspecies.github.io/TickTockClock/"><img
+                src="https://image.flaticon.com/icons/png/128/2784/2784459.png"></a>
+        <a href="https://codingspecies.github.io/StartStopClock/"><img
+                src="https://image.flaticon.com/icons/png/128/2055/2055768.png"></a>
+        <a href="https://codingspecies.github.io/NarrowNotes/"><img
+                src="https://image.flaticon.com/icons/png/128/889/889648.png"></a>
+        <a href="https://codingspecies.github.io/Best-App-Tutorials/"><img
+                src="https://image.flaticon.com/icons/png/128/2920/2920329.png"></a>
+
     </div>
-    <!-- <div class="sun">
-        <img src="https://image.flaticon.com/icons/png/512/4907/4907176.png" onclick="lightDark()">
-    </div>
-    <div class="ghub">
-        <a href="https://github.com/CodingSpecies"><img
-                src="https://image.flaticon.com/icons/png/128/779/779088.png"></a>
-    </div> -->
-    <!-- <div class="bg-text">Me And My Apps!</div> -->
     <h1 style="text-align: center;"><span>Me </span>and<span> My Apps</span></h1>
     <h3 style="text-align:center;">Hey, hover over the title!</h3>
     <h3 style="text-align:center;">Me And My Apps!</h3>
@@ -55,36 +50,37 @@
             var element = document.body;
             element.classList.toggle("light-mode");
         }
-    </script>
 
+        var i = 0;
+        var bio = "I love to make websites, and then animate them using JavaScript! I am currently learning React.js! I love to use open source and contribute to others repositaries!";
+        var speed = 50;
+
+        function typeWriter() {
+            if (i < bio.length) {
+                document.getElementById("bio").innerHTML += bio.charAt(i);
+                i++;
+                setTimeout(typeWriter, speed);
+            }
+        }
+    </script>
+    </div>
     <div class="bio">
         <h2>
             A Quick Bio About Me:
         </h2>
-        <h3>
+        <!-- <h3>
             <ul>I love to make websites, and then animate them using JavaScript!</ul>
             <ul>I am currently learning React.js!</ul>
             <ul>I love to use open source and contribute to others repositaries!</ul>
-        </h3>
+        </h3> -->
+        <button onclick="typeWriter()">See More Of My Bio!</button>
+        <h3 id="bio"></h3>
+
     </div>
 
     <div class="apps">
         <h2>
-            All My Creations:
-        </h2>
-        <h3>
-            <ul><a href="https://codingspecies.github.io/InputOutputBot/">Input Output Bot.</a></ul>
-            <ul><a href="https://codingspecies.github.io/ITSupportSavesLives/">IT Support Saves Lives.</a></ul>
-            <ul><a href="https://codingspecies.github.io/TickTockClock/">Tick Tock Clock.</a></ul>
-            <ul><a href="https://codingspecies.github.io/StartStopClock/">Start Stop Clock.</a></ul>
-            <ul><a href="https://codingspecies.github.io/NarrowNotes/">Narrow Notes.</a></ul>
-            <ul><a href="https://codingspecies.github.io/Best-App-Tutorials/">Best App Best-App-Tutorials</a></ul>
-        </h3>
-    </div>
-
-    <!-- <div class="github">
-        <h2>
-            Github Organisations:
+            My Github Organisations:
         </h2>
         <h3>
             <a href="https://github.com/zero-to-mastery"><img
@@ -95,8 +91,18 @@
                     src="https://avatars.githubusercontent.com/u/67384272?s=60&v=4"></a>
             <a href="https://github.com/CodingContributorsLair"><img
                     src="https://avatars.githubusercontent.com/u/87652881?s=60&v=4"></a>
+            <a href="https://github.com/jobream"><img
+                    src="https://avatars.githubusercontent.com/u/68013560?s=200&v=4"></a>
         </h3>
-    </div> -->
+    </div>
+
+    <div class="dlmode">
+        <h2>
+            light And Dark Mode:
+        </h2>
+        <img src="https://image.flaticon.com/icons/png/512/4907/4907176.png" onclick="lightDark()" class="mode">
+
+    </div>
 </body>
 
 </html>

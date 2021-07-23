@@ -55,8 +55,8 @@ body {
     background-color: rgba(114, 95, 95, 0.4);
     font-size: 12.4px;
     border: 3px solid #f1f1f1;
-    width: 400px;
-    height: 220px;
+    width: 300px;
+    height: 200px;
     padding: 20px;
     text-align: center;
     border-radius: 50px;
@@ -69,15 +69,15 @@ body {
     cursor: pointer;
 }
 
-.github {
-    bottom: 280px;
+.dlmode {
+    bottom: 220px;
     position: absolute;
     background-color: rgb(207, 135, 135);
     background-color: rgba(114, 95, 95, 0.4);
     font-size: 13px;
     border: 3px solid #f1f1f1;
-    width: 200px;
-    height: 220px;
+    width: 100px;
+    height: 200px;
     padding: 20px;
     text-align: center;
     border-radius: 50px;
@@ -138,7 +138,8 @@ h1:hover span {
     top: 7%;
     -webkit-transform: translateY(-50%);
     -ms-transform: translateY(-50%);
-    transform: translateY(-50%)
+    transform: translateY(-50%);
+    background-color: chocolate;
 }
 
 .icon-bar img {
@@ -160,4 +161,14 @@ h1:hover span {
 
 .mode {
     color: white;
+}
+
+button {
+    font-size: 20px;
+    background-image: linear-gradient(cyan, chocolate, green);
+    font-family: "Nova Round", cursive;
+    border: none;
+    width: 6cm;
+    height: 1cm;
+    cursor:pointer;
 }
